@@ -76,6 +76,9 @@ In order to get a satisfactory score, your app must:
     a draw/"cat’s game" if neither wins
 -   Use **jQuery** for **DOM manipulation** and **event handling**
 -   Use **AJAX** for data storage and retrieval
+-   Have **login**, **logout**, and **change password** functionality
+-   **Visually display** results of at least one 'GET' request
+-   Have **Create**, **Read** and **Update** actions.
 
 In addition, you must use separate files for your HTML, CSS, and JavaScript, and
 (where possible) use semantic markup for your HTML. And in general, try to stick
