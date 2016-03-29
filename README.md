@@ -77,8 +77,8 @@ In order to get a satisfactory score, your app must:
 -   Use **jQuery** for **DOM manipulation** and **event handling**
 -   Use **AJAX** for data storage and retrieval
 -   Have **login**, **logout**, and **change password** functionality
--   **Visually display** results of at least one 'GET' request
--   Have **Create**, **Read** and **Update** actions.
+-   **Visually display** the results of retrieving game information
+-   **Create** and **Update** games.
 
 In addition, you must use separate files for your HTML, CSS, and JavaScript, and
 (where possible) use semantic markup for your HTML. And in general, try to stick
