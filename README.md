@@ -2,14 +2,14 @@
 
 # The Game
 
-## Overview
-
 In our first project, let's start out with something fun - **a game**!
 Specifically, We'll be making **Tic Tac Toe**, a game that takes seconds to
 learn but minutes to master!
 
-By the time you submit this project, you will have covered new ground in many of
-the big themes of the course:
+## Objectives
+
+By the time you submit this project, developers will have covered new ground in
+many of the big themes of the course:
 
 -   **Command Line**: Interacting with the computer and navigating the
     filesystem from the command line.
@@ -32,6 +32,8 @@ the big themes of the course:
 -   **Products and Teams**: Document your code and your code repository so
     others understand what you've built.
 
+## Goals
+
 At a high level, here are our goals for you in this project:
 
 -   **Build a web application from scratch**, without a starter codebase
@@ -52,33 +54,72 @@ your feet wet in the world of web development. Those who dare will have the
 tools to make it **multi-player, and multi-device** – so you can say to someone,
 "hand me your phone," load up the game, and play a quick round!
 
-## Deliverables
+## Requirements
 
-When you present your project, you must hand in the following things
+In order to get a satisfactory score, by the time you present your project, you
+**must**:
 
--   A **working browser game, built by you**, hosted on GitHub Pages (or an
-    alternative platform).
--   A **git repository hosted on Github**, with a link to your hosted game, and
-    frequent commits dating back to the very beginning of the project
--   **A ``readme.md`` file** with explanations of the technologies used, the
-    approach taken, unsolved problems, etc.
--   A **link to your hosted working game** in the URL section of your Github
-    repo
--   Links to **wireframes and user stories**, preferably in the README of your
-    repo.
+-   Present **working browser game, built by you**, hosted on GitHub Pages.
+-   Practice using version control by:
 
-In order to get a satisfactory score, your app must:
+    -   Sharing your work through a **git repository hosted on Github**.
+    -   Making **frequent, cohesive commits** dating back to the very beginning
+        of the project with **good commit messages**.
 
--   **Be deployed online**, where the rest of the world can access it
--   **Render a game board in the browser**
--   **Switch turns** between X and O (or whichever markers you select)
+-   Produce **documentation** in the form of a **README**, which must:
+
+    -   **Link to your hosted game** in the **URL section** of your Github
+        repo.
+    -   **List technologies used**.
+    -   **Document your planning** and tell a story about your **development
+        process** and problem-solving strategy.
+    -   **List unsolved problems** which would be fixed in future iterations.
+    -   Link to **wireframes and user stories**.
+
+Your app **must**:
+
+-   Be a **single-page** application.
+-   **Be deployed online**, where the rest of the world can access it.
+-   **Render a game board in the browser**.
+-   **Switch turns** between X and O (or whichever markers you select).
 -   **Visually display which side won** if a player gets three in a row or show
-    a draw/"cat’s game" if neither wins
--   Use **jQuery** for **DOM manipulation** and **event handling**
--   Use **AJAX** for data storage and retrieval
--   Have **login**, **logout**, and **change password** functionality
--   **Visually display** the results of retrieving game information
--   **Create** and **Update** games.
+    a draw/"cat’s game" if neither wins.
+-   Support playing **multiple games**, one at a time.
+-   Use **jQuery** for **DOM manipulation** and **event handling**.
+-   Use **AJAX** for interacting with a provided API. Specifically, your app
+    must:
+
+    -   **Visually display** the results of retrieving game statistics, such as
+        total games won by a user. (READ)
+    -   **Create** new games on the server. (CREATE)
+    -   **Update** a game by storing new moves. (UPDATE)
+
+-   Have **login**, **logout**, and **change password** functionality.
+
+Your app **must not**:
+
+-   Rely on **refreshing the page** for **any** functionality.
+-   Display **non-functional** buttons, nor buttons that **do not successfully
+    complete** a task.
+-   Have **any** user-facing **bugs**.
+-   Be playable **after finishing a game**.
+-   Allow players to move in the same square **more than once**.
+-   Change players when an **invalid move** is made.
+
+Additionally, you **should**:
+
+-   Use **semantic** HTML.
+-   Practice separation of concerns by:
+
+    -   Using the [js-template](https://github.com/ga-wdi-boston/js-template) to
+        store HTML, CSS, and JavaScript in the appropriate places.
+    -   Storing DOM manipulation code and network code in separate files.
+
+Finally, you **should not**:
+
+-   **Use alerts** for anything.
+-   **Display errors** or warnings in the console.
+-   **Display debugging** messages in the console.
 
 In addition, you must use separate files for your HTML, CSS, and JavaScript, and
 (where possible) use semantic markup for your HTML. And in general, try to stick
@@ -137,7 +178,7 @@ Your consultants will give you a total score on your project as an aggregate
 across all the categories:
 
 | Score | Expectations                                           |
-|-------|--------------------------------------------------------|
+|:------|:-------------------------------------------------------|
 | **0** | _Does not meet expectations._                          |
 | **1** | _Meets expectactions, good job!_                       |
 | **2** | _Exceeds expectations, you magnificent creature, you!_ |
@@ -192,15 +233,12 @@ Here's a rough sketch of what you should do and in what order:
     how to change some text when the game is over but you haven’t solved the
     win/lose game logic, you can create a button to simulate that until then.
 
-Finally, here are some resources that it might be good for you to look at/read
-about:
+## Additional Resources
 
 -   [MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [jQuery Docs](http://api.jquery.com)
 -   [Writing Good User Stories](http://www.mariaemerson.com/user-stories/)
 -   [Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)
-
-**Good luck and happy hacking!**
 
 ## [License](LICENSE)
 
