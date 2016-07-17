@@ -23,6 +23,7 @@ In order to get a satisfactory score, by the time you present your project, you
 Your app **must**:
 
 -   Be a **single-page** application.
+-   A custom game engine **written by you**.
 -   **Be deployed online**, where the rest of the world can access it.
 -   **Render a game board in the browser**.
 -   **Switch turns** between X and O (or whichever markers you select).
