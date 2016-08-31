@@ -51,8 +51,6 @@ Your app **must not**:
 -   Allow players to move in the same square **more than once**.
 -   Change players when an **invalid move** is made.
 
-## Nice-to-Haves
-
 Additionally, you **should**:
 
 -   Use **semantic** HTML.
