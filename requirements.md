@@ -62,6 +62,7 @@ Additionally, you **should**:
 
 -   **KISS (Keep It Stupidly Simple)**.
 -   **DRY (Don't Repeat Yourself)**.
+-   **Assume player X is the first player to start the game**.
 
 Finally, you **should not**:
 
